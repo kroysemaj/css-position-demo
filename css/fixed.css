@@ -1,0 +1,65 @@
+#fixed {
+  height: 250px;
+}
+
+#fixed div {
+  margin: 2px;
+  border: 1px solid black;
+  padding: 2px;
+  position: fixed;
+}
+
+#aa {
+  bottom: 0px;
+  left: 0px;
+}
+
+#bb {
+  bottom: 0px;
+  left: 80px;
+}
+
+#cc {
+  bottom: 0px;
+  left: 221px;
+}
+
+#dd {
+  bottom: 0px;
+  left: 349px;
+}
+
+#ee {
+  bottom: 0px;
+  left: 428px;
+}
+
+#ff {
+  bottom: 0px;
+  left: 517px;
+}
+
+#gg {
+  bottom: 0px;
+  left: 573px;
+}
+
+#hh {
+  bottom: 0px;
+  left: 625px;
+}
+
+#ii {
+  bottom: 0px;
+  left: 700px;
+}
+
+#jj {
+  bottom: 0px;
+  left: 780px;
+}
+
+#kk {
+  bottom: 0px;
+  left: 830px;
+}

@@ -1,0 +1,64 @@
+#relative span {
+  margin: 2px;
+  border: 1px solid black;
+  padding: 2px;
+  display: inline-block;
+  position: relative;
+}
+
+#relative div {
+  margin: 2px;
+  border: 1px solid black;
+  padding: 2px;
+  position: relative;
+}
+
+#a{
+  top: -3px;
+  right: 5px;
+}
+
+#b{
+  top: 3px;
+  right: -2px;
+}
+
+#c{
+  top: 6px;
+  right: 5px;
+}
+
+#d{
+  top: -4px;
+  right: -2px;
+}
+
+#e{
+  top: 0px;
+  right: 3px;
+}
+
+#f{
+  top: 5px;
+  right: 0px;
+}
+
+#g{
+  top: 3px;
+  right: -1px;
+}
+
+#h{
+  top: 6px;
+  right: -5px;
+}
+
+#i{
+  top: 0px;
+  right: 0px;
+}
+
+#j{
+  top: 4px;
+  right: 1px;
+}

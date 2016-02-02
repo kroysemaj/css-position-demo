@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Demonstrating Block and Inline Elements</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/static.css">
+  <link rel="stylesheet" href="css/relative.css">
+  <link rel="stylesheet" href="css/absolute.css">
+  <link rel="stylesheet" href="css/fixed.css">
+</head>
+<body>
+<section id="container">
+  <header id="header" class="">
+    <span id="title">Demonstrating CSS Positioning</span>
+  </header>
+  <section id="content">
+
+    <section class="demo" id="static">
+      <span>These</span><span>are</span><span>inline</span>
+      <span>elements.</span><span>They</span><span>only</span><span>take</span>
+      <span>up</span><span>as</span><span>much</span><span>room</span>
+      <span>as</span><span>they</span><span>need.</span>
+      <div>Block</div>
+      <div>elements</div>
+      <div>take</div>
+      <div>up</div>
+      <div>an</div>
+      <div>entire</div>
+      <div>horizontal</div>
+      <div>line</div>
+      <div>regardless</div>
+      <div>of</div>
+      <div>size.</div>
+    </section>
+
+    <section class="demo" id="relative">
+      <span>These</span><span>elements</span><span>are</span><span>relatively</span><span>positioned.</span><span>If</span><span>otherwise</span>
+      <span>unchanged</span><span>they</span><span>behave</span><span>exactly</span><div>like</div><div>static</div><div>elements.</div>
+      <span id="a">Add</span><span id="b">some</span><span id="c">offset</span><span id="d">rules</span>
+      <span id="e">and</span><span id="f">you</span><span id="g">see</span><span id="h">how</span>
+      <span id="i">they</span><span id="j">differ.</span>
+    </section>
+
+    <section class="demo" id="absolute">
+      <div id="k">Absolute</div><div id="l">positioned</div><div id="m">elements</div>
+      <div id="n">'stick'</div><div id="o">where</div><div id="p">you</div><div id="q">put</div>
+      <div id="r">them</div><div id="s">within</div><div id="t">their</div>
+      <div id="u">parent</div><div id="v">element.</div>
+    </section>
+
+    <section class="demo" id="fixed">
+      <div id="aa">Fixed</div><div id="bb">positioned</div><div id="cc">elements</div>
+      <div id="dd">'stick'</div><div id="ee">where</div><div id="ff">you</div><div id="gg">put</div>
+      <div id="hh">them</div><div id="ii">within</div><div id="jj">the</div>
+      <div id="kk">viewport</div>
+    </section>
+
+  </section>
+
+</section>
+</body>
+</html>

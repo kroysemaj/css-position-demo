@@ -1,0 +1,71 @@
+#absolute {
+  height: 250px;
+  position: relative;
+}
+
+#absolute div {
+  margin: 2px;
+  border: 1px solid black;
+  padding: 2px;
+  position: absolute;
+}
+
+#k {
+  top: 0px;
+  left: 0px;
+}
+
+#l {
+  top: 0px;
+  left: 120px;
+}
+
+#m {
+  top: 0px;
+  left: 260px;
+}
+
+#n {
+  top:0px;
+  left: 386px;
+}
+
+#o {
+  top:0px;
+  left: 463px;
+}
+
+#p {
+  top:0px;
+  left: 550px;
+}
+
+#q {
+  top:0px;
+  left: 606px;
+}
+
+#r {
+  top:0px;
+  left: 657px;
+}
+
+#s {
+  top: 50px;
+  left: 734px;
+}
+
+#t {
+  top: 100px;
+  left: 814px;
+}
+
+#u {
+  top: 150px;
+  left: 880px;
+}
+
+#v {
+  top: 210px;
+  left: 900px;
+}

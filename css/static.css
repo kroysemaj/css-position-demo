@@ -1,0 +1,12 @@
+#static span {
+  margin: 2px;
+  border: 1px solid black;
+  padding: 2px;
+  display: inline-block;
+}
+
+#static div {
+  margin: 2px;
+  border: 1px solid black;
+  padding: 2px;
+}
